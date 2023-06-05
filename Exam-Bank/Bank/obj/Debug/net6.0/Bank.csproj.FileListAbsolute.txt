@@ -1,0 +1,15 @@
+C:\11a - 2\Exam-Bank\Bank\bin\Debug\net6.0\Bank.exe
+C:\11a - 2\Exam-Bank\Bank\bin\Debug\net6.0\Bank.deps.json
+C:\11a - 2\Exam-Bank\Bank\bin\Debug\net6.0\Bank.runtimeconfig.json
+C:\11a - 2\Exam-Bank\Bank\bin\Debug\net6.0\Bank.dll
+C:\11a - 2\Exam-Bank\Bank\bin\Debug\net6.0\Bank.pdb
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.csproj.AssemblyReference.cache
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.AssemblyInfoInputs.cache
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.AssemblyInfo.cs
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.csproj.CoreCompileInputs.cache
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.dll
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\refint\Bank.dll
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.pdb
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\Bank.genruntimeconfig.cache
+C:\11a - 2\Exam-Bank\Bank\obj\Debug\net6.0\ref\Bank.dll
