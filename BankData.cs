@@ -8,23 +8,27 @@ namespace BankExam
 {
     public abstract class BankData : IPrint
     {
-        private string accountNumber;
+        private int accountNumber;
         private decimal moneyAvailable;
         private string lastProcessingDate;
 
-        public BankData(string accountNumber, decimal moneyAvailable, string lastProcessingDate)
+        public BankData(int accountNumber, decimal moneyAvailable, string lastProcessingDate)
         {
             this.accountNumber = accountNumber;
             this.moneyAvailable = moneyAvailable;
             this.lastProcessingDate = lastProcessingDate;
         }
 
-        public string AccountNumber
+        public BankData()
+        {
+        }
+
+        public int AccountNumber
         {
             get { return accountNumber; }
             set
             {
-                if (accountNumber == string.Empty)
+                if (value < 0)
                 {
                     throw new Exception("Your account number should contains 4 symbols");
                 }
@@ -37,7 +41,7 @@ namespace BankExam
             get { return moneyAvailable; }
             set
             {
-                if (moneyAvailable < 0)
+                if (value < 0)
                 {
                     throw new Exception("You can not have 0 or less money in your account");
                 }
@@ -53,6 +57,6 @@ namespace BankExam
 
         public virtual void Print() { }
 
-        public abstract decimal CalculateAverageSum(List<BankData> averageSum);
+        public abstract void CalculateAverageSum(List<BankData> averageSum);
     }
 }

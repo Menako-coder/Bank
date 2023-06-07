@@ -11,7 +11,7 @@ namespace BankExam
         public string Name { get; set; }
         public string Address { get; set; }
 
-        public Owner(string accountNumber, string name, string address, decimal moneyAvailable, string lastProcessingDate) : base(accountNumber, moneyAvailable, lastProcessingDate)
+        public Owner(int accountNumber, string name, string address, decimal moneyAvailable, string lastProcessingDate) : base(accountNumber, moneyAvailable, lastProcessingDate)
         {
             this.Name = name;
             this.Address = address;
@@ -29,10 +29,10 @@ namespace BankExam
             Console.WriteLine(sb.ToString());
         }
 
-        public override decimal CalculateAverageSum(List<BankData> averageSum)
+        public override void CalculateAverageSum(List<BankData> averageSum)
         {
             decimal result = averageSum.Average(avs => avs.MoneyAvailable);
-            return result;
+            Console.WriteLine(result);
         }
     }
 }
