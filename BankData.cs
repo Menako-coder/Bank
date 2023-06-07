@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace Bank
+namespace BankExam
 {
     public abstract class BankData : IPrint
     {
@@ -23,24 +22,37 @@ namespace Bank
         public string AccountNumber
         {
             get { return accountNumber; }
-            set { accountNumber = value; }
+            set
+            {
+                if (accountNumber == string.Empty)
+                {
+                    throw new Exception("Your account number should contains 4 symbols");
+                }
+                accountNumber = value;
+            }
         }
 
         public decimal MoneyAvailable
         {
             get { return moneyAvailable; }
-            set { moneyAvailable = value; }
+            set
+            {
+                if (moneyAvailable < 0)
+                {
+                    throw new Exception("You can not have 0 or less money in your account");
+                }
+                moneyAvailable = value;
+            }
         }
 
         public string LastProcessingDate
         {
             get { return lastProcessingDate; }
-            set {  lastProcessingDate = value; }
+            set { lastProcessingDate = value; }
         }
 
         public virtual void Print() { }
 
-
-       
+        public abstract decimal CalculateAverageSum(List<BankData> averageSum);
     }
 }

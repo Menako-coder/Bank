@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.AccessControl;
 using System.Text;
-using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace Bank
+namespace BankExam
 {
-    public class Owner : BankData, IComparable<Owner>
+    internal class Owner : BankData
     {
         public string Name { get; set; }
         public string Address { get; set; }
@@ -31,9 +29,10 @@ namespace Bank
             Console.WriteLine(sb.ToString());
         }
 
-        public int CompareTo(Owner other)
+        public override decimal CalculateAverageSum(List<BankData> averageSum)
         {
-            return Name.CompareTo(other.Name);
+            decimal result = averageSum.Average(avs => avs.MoneyAvailable);
+            return result;
         }
     }
 }
