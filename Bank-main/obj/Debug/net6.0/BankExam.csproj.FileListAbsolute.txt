@@ -1,0 +1,15 @@
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\bin\Debug\net6.0\BankExam.exe
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\bin\Debug\net6.0\BankExam.deps.json
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\bin\Debug\net6.0\BankExam.runtimeconfig.json
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\bin\Debug\net6.0\BankExam.dll
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\bin\Debug\net6.0\BankExam.pdb
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.dll
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\refint\BankExam.dll
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.pdb
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\BankExam.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Bank-main (1)\Bank-main\obj\Debug\net6.0\ref\BankExam.dll
